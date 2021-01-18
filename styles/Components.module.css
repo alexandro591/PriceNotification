@@ -1,0 +1,38 @@
+.ratesCard {
+    background: rgb(42, 42, 42);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: 50px;
+    grid-auto-rows: 50px;
+}
+
+.notificationsCard {
+    overflow-y: scroll;
+    height: 280px;
+    max-height: 280px;
+    width: 500px;
+    padding: 3px;
+    background: rgb(29, 29, 29);
+    border-radius: 10px;
+    margin: auto;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.button {
+    background: rgba(39, 39, 39, 0.38) !important;
+}
+
+.button:hover {
+    background: rgba(64, 64, 64, 0.38) !important;
+}
+
+.notificationDrawer {
+    background-color: rgb(20, 20, 20);
+    color: blanchedalmond;
+}
